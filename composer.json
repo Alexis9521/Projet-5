@@ -1,0 +1,12 @@
+{
+    "name": "alexi/projet_5",
+    "authors": [
+        {
+            "name": "Alexis",
+            "email": "alexdu9521@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
