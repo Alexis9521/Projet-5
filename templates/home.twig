@@ -2,14 +2,18 @@
 {% block body %}
     <div class="container-fluid" id="slideHome">
         <section id="sliderHomePage">
-            <div class="d-flex justify-content-center align-items-center" id="testslid"><i id="angleLeft" class="fas fa-angle-left d-flex justify-content-center align-items-center"></i></div>
-            <div class="d-flex justify-content-center align-items-center" id="testslid1"><i id="angleRight" class="fas fa-angle-right d-flex justify-content-center align-items-center"></i></div> <!-- Change class -->
-            <img src="src/slid1.jpg"  alt="sliderLol"/>
+            <!-- Picture slider -->
+            <div class="imgSlid"><img src="src/slid1.jpg" alt="slider league of legend"/></div>
+            <div class="imgSlid"><img src="src/slid2.jpg" alt="slider fortnite"></div>
+            <div class="imgSlid"><img src="src/slid3.jpg" alt="slider clash royal"></div>
+            <div class="imgSlid"><img src="src/slid4.jpg" alt="slider overwach"></div>
+            <!-- Timeline slider -->
+            <div class="sliderTimeLine"><div class="timeLine" data-percent="100%"></div></div>
         </section>
     </div>
 
-
-
+    <!-- Border bottom slider -->
+    <div id="borderBottomSlider"></div>
 
 
     <div class="container">
@@ -24,9 +28,6 @@
             </div>
         </section>
     </div>
-
-
-
 
 
 {% endblock %}

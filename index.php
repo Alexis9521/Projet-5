@@ -25,3 +25,9 @@ if($page === 'admin'){
 if($page === 'register'){
     echo $twig->render('register.html.twig');
 }
+
+if($page === 'forum'){
+
+    echo $twig->render('forum.html.twig');
+
+}

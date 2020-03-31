@@ -1,12 +1,35 @@
-
+/*
 $('#login_link').click(function() {
     $('#login').toggle();
 });
 
 
-$('#bloc_page_base').click(function () {
+$('#blocPageBase').click(function () {
 
     $('#login').css('display', 'none');
 
 });
+*/
+function openLogin() {
 
+   $('#login').toggle();
+
+}
+
+function closeLogin() {
+
+    $('#login').css('display' , 'none');
+
+}
+
+let open = $('#loginLink').click(function () {
+
+    openLogin();
+
+});
+
+let close = $('#blocPageBase').click(function () {
+
+    closeLogin();
+
+});
